@@ -1,0 +1,10 @@
+1.针对办公做兼容性处理：
+  	a).升级jar包：
+  		cas-client-core-3.2.1.jar
+  		cas-client-integration-tomcat-common-3.2.1.jar
+  		cas-client-integration-tomcat-v6-3.2.1.jar/cas-client-integration-tomcat-v7-3.2.1.jar(根据tomcat实际选择)
+  		cas-client-extension-1.5.jar
+ 	b).修改web.xml,添加单点登出listener：
+ 	<listener>   
+ 		<listener-class>org.jasig.cas.client.session.SingleSignOutHttpSessionListener</listener-class>
+    </listener>

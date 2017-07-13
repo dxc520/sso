@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Built-By: shurenkeji
+Build-Jdk: 1.8.0_131
+Build-Id: 
+Build-Number: 
+Build-Tag: 
+Created-By: Maven Integration for Eclipse
+Specification-Title: 单点登录客户端
+Specification-Vendor: 数人科技
+Specification-Vendor-Id: NCI
+Specification-Version: 1.6.1
+Svn-Revision: 
+
